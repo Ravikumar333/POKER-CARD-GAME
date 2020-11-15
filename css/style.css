@@ -1,0 +1,62 @@
+body {
+  font-family: 'Hind', sans-serif;
+  background-color: green;
+  color: white;
+}
+
+button {
+  margin: 10px;
+}
+
+
+#main {
+  display: inline-block;
+  width: 640px;
+  height: 300px;
+}
+
+
+
+.card {
+  position: absolute;
+  height: 96px;
+  width: 72px;
+  z-index: 1;
+}
+
+
+.pile {
+  position: absolute;
+  height: 96px;
+  width: 72px;
+  top: 30px;
+  z-index: 1;
+}
+
+#pile1 {
+  left: 130px;
+}
+
+#pile2 {
+  left: 230px;
+}
+
+#pile3 {
+  left: 330px;
+}
+
+#pile4 {
+  left: 430px;
+}
+
+#pile5 {
+  left: 530px;
+}
+
+
+.latestScore {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 2.0em;
+}
+
